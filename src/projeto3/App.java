@@ -23,10 +23,15 @@ public class App {
 			  System.out.println("Escolha o nivel de dificuldade(Escreva Facil , Normal , Dificil)");
 			  String dificuldade = entrada.next();
 			  combate.setNivelDificuldade(dificuldade);
-			  System.out.println("Escolha nome e sexo");
+			  System.out.println("Escolha seu nome");
 			  String nome = entrada.next();
 			  nome = jogador.setNome(nome);
 			  System.out.println(nome);
+			  System.out.println("Escolha seu apelido");
+			  String apelido = entrada.next();
+			  apelido = jogador.setApelido(apelido);
+			  System.out.println(apelido);
+			  System.out.println("Escolha seu genero");
 			  String genero = entrada.next();
 			  genero = jogador.setGenero(genero);
 			  System.out.println("Escolha uma classe de combate");

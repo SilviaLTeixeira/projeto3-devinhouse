@@ -3,6 +3,7 @@ package projeto3.entidades;
 public class Jogador {
 	private String motivaçao;
 	private String nome;
+	private String apelido;
 	private String genero;
 	private Combate combate;
 	private Armas arma;
@@ -71,6 +72,14 @@ public Armas getArma() {
 
 public void setArma(int armaEscolhida) {
 	this.arma = this.getCombate().getArmas()[armaEscolhida];
+}
+
+public String getApelido() {
+	return apelido;
+}
+
+public String setApelido(String apelido) {
+	return this.apelido = apelido;
 }
 
 
